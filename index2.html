@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Gupta | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      scroll-padding-top: 100px;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f0f2f5, #e2e8f0);
+      color: #1f2937;
+    }
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #facc15;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 0.7s ease-in-out;
+    }
+    h2 {
+      border-left: 5px solid #1f2937;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      background-color: #1f2937;
+      color: white;
+      padding: 15px;
+    }
+    a {
+      color: #1f2937;
+      text-decoration: underline;
+      word-break: break-word;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+      background: #e5e7eb;
+    }
+    .hero img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+    .img-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 10px;
+    }
+    .img-hover:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Abhishek Gupta</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+      <a href="#resume">Resume</a>
+      <a href="#scanner">Scanner</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Hello! I'm Abhishek</h1>
+    <hr style="width: 60%; margin: 10px auto;">
+    <img 
+      src="abhishek-photo.png" 
+      alt="Abhishek Gupta Photo" 
+      class="img-hover"
+      style="max-width: 200px; display: block; margin: 20px auto; border: 2px solid #ccc; padding: 5px;" 
+    />
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hey there! I'm Abhishek — a tech enthusiast and B.Tech CSE student at CGC Landran with a heart that beats for code and creativity. My journey into the tech world started with curiosity and led me into the realms of Java, databases, and web development.
+      <br><br>
+      I’ve worked on real-world projects like a Bank Management System and an arcade-style Brick Breaker Game. These not only helped build my technical skills but also taught me discipline, debugging patience, and the thrill of problem-solving.
+      <br><br>
+      I'm also an active participant in co-curriculars. From coordinating impactful college events like <strong>Parivartan</strong> to exploring my passion for photography in <strong>Photo Hunt</strong>, I believe in growing both technically and personally.
+      <br><br>
+      I’m currently diving deeper into backend development, cloud computing, and ethical hacking. Open to learning, collaborating, and building something awesome together!
+      <br><br>
+      <strong>Roll No:</strong> 2236661<br>
+      <strong>Date of Birth:</strong> 23 April 2003<br>
+      <strong>Hometown:</strong> Dataganj, Budaun - 243601
+    </p>
+  </section>
+
+ 
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>
+      My skillset is a blend of curiosity and consistent learning. I’m confident in:
+      <ul>
+        <li><strong>Languages:</strong> Java, C, HTML, CSS, JavaScript</li>
+        <li><strong>Web Dev:</strong> Frontend Basics, Responsive Layouts, GitHub Pages Deployment</li>
+        <li><strong>Tools:</strong> Git, VS Code, MySQL</li>
+      </ul>
+      I believe in sharpening my skills through real use — not just theory. Whether it's debugging a stubborn function or making a UI pixel-perfect, I love making things work.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>
+      Currently pursuing B.Tech in Computer Science and Engineering from CGC Landran, Punjab. Being a part of this academic environment has helped me develop a structured way of learning and problem-solving.
+    </p>
+	
+	<ul>
+      <li>10th Class from De Paul School, Budaun — 72%</li>
+      <li>12th Class from Blooming Dale School, Budaun — 74%</li>
+      <li>B.Tech in Computer Science and Engineering from CGC Landran — 77%</li>
+    </ul>
+	
+  </section>
+<section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Cloud Foundations</li>
+      <li>Hero Vired – Unstoppable MongoDB Developer</li>
+      <li>ICT Learnathon Participant</li>
+      <li>Ethical Hacking (Beginner Level)</li>
+      <li>MongoDB Developer Essentials</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Bank Management System</h3>
+        <p>Java + MySQL based console application</p>
+      </div>
+      <div class="project-card">
+        <h3>Ethical Hacking</h3>
+        <p>Based on Kali Linux environment</p>
+      </div>
+      <div class="project-card">
+        <h3>Brick Breaker Game</h3>
+        <p>Built in Java, classic arcade-style game</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>HTML, CSS, JavaScript based personal site</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact: <strong>+91 7737121167</strong></h2>
+    <p><strong>Personal Email:</strong> <a href="mailto:abhiguptaa23@gmail.com">abhiguptaa23@gmail.com</a></p>
+    <p><strong>Official Email:</strong> <a href="mailto:2236661.cse.cec@cgc.edu.in">2236661.cse.cec@cgc.edu.in</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/abhigpt/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn Profile</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/Abhishekgpt61" target="_blank"><i class="fab fa-github"></i> GitHub Profile</a></p>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p><a href="https://drive.google.com/file/d/16xcD1KJkzvMdcyB3BDPFlzSndamo3_RR/view?usp=drivesdk" target="_blank">View My Resume (PDF)</a></p>
+  </section>
+
+  <section id="scanner" class="section">
+    <h2>Scan to View My Portfolio</h2>
+    <p>You can scan this QR code to directly visit my portfolio website.</p>
+    <img 
+      src="https://api.qrserver.com/v1/create-qr-code/?data=https://abhishekgpt61.github.io/Abhishek-portfolio/&amp;size=200x200" 
+      alt="QR Code to Portfolio" 
+      class="img-hover"
+      style="display: block; margin: 20px auto; max-width: 200px; border: 2px solid #1f2937; padding: 10px; background: white;" 
+    />
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abhishek Gupta</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('.section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    sections.forEach(sec => observer.observe(sec));
+  </script> 
+
+</body>
+</html>
